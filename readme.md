@@ -17,8 +17,7 @@
 
 ## Captura de tela :dash:
 
-![]![Visual do projeto](calcIMC.jpg)
-
+![Visual do projeto](calcIMC.jpg)
 
 
 ## Como rodar a aplicação :arrow_forward:
@@ -26,7 +25,7 @@
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
+git clone https://github.com/BryanCarlos/calculo-IMC.git
 ```
 
 E então abra a o arquivo index.html!
