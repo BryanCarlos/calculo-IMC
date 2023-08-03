@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calcular IMC</title>
+</head>
+<body>
+  <section id="container">
+    <h2>Calcule seu IMC</h2>
+    <p>Para saber se você se encontra em um peso ideal a sua altura, faça o calculo!</p><br>
+    <table>
+      <thead>
+        <th>IMC</th>
+        <th>CLASSIFICAÇÃO</t>
+        <th>OBESIDADE (GRAU)</th>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td>MENOR QUE 18,5</td>
+          <td>MAGREZA</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>ENTRE 18,5 E 24,9</td>
+          <td>NORMAL</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>ENTRE 25,0 E 29,9</td>
+          <td>SOBREPESO</td>
+          <td>I</td>
+        </tr>
+        <tr>
+          <td>ENTRE 30,0 E 39,9</td>
+          <td>OBESIDADE</td>
+          <td>II</td>
+        </tr>
+        <tr class="lastRow">
+          <td>MAIOR QUE 40,0</td>
+          <td>OBESIDADE GRAVE</td>
+          <td>III</td>
+        </tr>
+      </tbody>
+    </table><br>
+    <label for="fpeso"><strong>Peso</strong></label><br>
+    <input type="number" name="fpeso" id="fpeso"><br>
+    <label for="falt"><strong>Altura</strong></label><br>
+    <input type="number" name="falt" id="falt"><br>
+    <button onclick="calcular()">Calcular</button><br>
+    <p id="res">
+
+    </p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
